@@ -1,0 +1,22 @@
+#files-table {
+	width: 100%;
+	font-family: "CaviarDreams";
+	font-size: 20px;
+}
+
+#files-table td:first-child {
+	text-align: left;
+}
+
+#files-table td:last-child {
+	text-align: right;
+}
+
+#files-table td {
+	padding: 15px 0;
+}
+
+#files-table input[type="file"] {
+	font-family: "CaviarDreams";
+	font-style: italic;
+}

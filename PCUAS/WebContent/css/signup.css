@@ -1,0 +1,94 @@
+#signup .basic-details-container {
+	background-image: url('../Assets/Images/chilling.jpg');
+	background-size: cover;
+	text-align: center;
+}
+
+#signup .basic-details-container .fp-tableCell>* {
+	display: inline-block;
+}
+
+#signup .register-box {
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 10px;
+	display: inline-block;
+	text-align:center;
+}
+
+#signup .register-box .register-title{
+	font-family: 'BrannbollFet';
+  	font-size: 33px;
+  	padding: 20px 60px;
+}
+
+#signup .register-box input{
+	width: 100%;
+	width: 100%;
+	box-sizing: border-box;
+	border: none;
+	margin: 10px 0;
+	padding: 10px 20px;
+	text-align: center;
+	font-family: 'CaviarDreams';
+	font-size: 25px;
+	font-style: italic;
+	outline: none;
+}
+
+#signup .description{
+	color: white;
+    font-family: 'CaviarDreams';
+    font-size: 35px;
+    text-align: right;
+    max-width: 40%;
+    margin-top: 8%;
+    vertical-align: top;
+}
+
+#signup .description b{
+	color: #bad36a;
+}
+
+
+#signup .upload-photo-container {
+	background-image: url('../Assets/Images/bridge.jpg');
+	background-size: cover;
+}
+
+#signup .upload-photo-container .top-bar {
+	background-color: white;
+	border-bottom: solid 2px #d1d1d1;
+	padding: 10px 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	text-align: center;
+}
+
+#signup .upload-photo-container .top-bar>* {
+	text-transform: none;
+}
+
+#signup .upload-photo-container .top-bar .main-title3 {
+	font-style: italic;
+}
+
+#signup .upload-photo-container img {
+	width: 250px;
+}
+
+#signup .agree-container{
+	background: #e5e5e5;
+}
+
+#signup .agree-container .content-container{
+	font-family: 'CaviarDreams';
+	font-size: 28px;
+}
+
+#signup .agree-container *:not(.green-button){
+	color: #bad36a;
+}
+
+
+

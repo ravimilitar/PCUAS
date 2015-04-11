@@ -1,0 +1,97 @@
+#top-menu-container {
+	background: #ffffff;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 91px;
+	border-bottom: solid 1px #d1d1d1;
+	z-index: 10;
+}
+
+#top-menu-container #title-container {
+	width: 100%;
+	text-align: center;
+	padding: 10px 0;
+}
+
+#top-menu-container .menu-item {
+	position: absolute;
+	bottom: 0;
+	top: 0;
+}
+
+#top-menu-container #menu-button {
+	left: 0;
+	padding: 25px;
+}
+
+#top-menu-container #menu-button:hover {
+	background-color: #bad36a;
+}
+
+#top-menu-container #logout {
+	right: 20px;
+	font-family: 'CaviarDreams';
+	font-size: 20px;
+	color: #d1d1d1;
+}
+
+#top-menu-container #logout a {
+	color: #d1d1d1;
+	text-decoration: none;
+}
+
+#top-menu-container #logout label:hover {
+	text-transform: uppercase;
+}
+
+#side-menu-container {
+	position: fixed;
+	left: -350px;
+	width: 350px;
+	background-color: #3d3d3d;
+	height: 100%;
+	color: #d1d1d1;
+	font-family: 'CaviarDreams';
+	font-size: 23px;
+	display: inline-block;
+}
+
+#side-menu-container a {
+	color: #d1d1d1;
+	text-decoration: none;
+}
+
+#side-menu-container #side-menu-negative-space {
+	height: 91px;
+	background-color: #585858;
+}
+
+#side-menu-container #header {
+	color: #bad36a;
+	font-family: 'BrannbollFet';
+}
+
+#side-menu-container #header a {
+	color: #bad36a;
+}
+
+#side-menu-container #side-menu-container-list {
+	padding: 20px;
+}
+
+#side-menu-container #side-menu-container-list>* {
+	border-bottom: solid 1px #5f5f5f;
+	display: block;
+	padding: 10px 0;
+}
+
+#side-menu-container #side-menu-container-list div:hover {
+	background-color: rgba(255, 255, 255, .1);
+	color: #bad36a;
+}
+
+#side-menu-container #side-menu-container-list label:hover {
+	color: white;
+}

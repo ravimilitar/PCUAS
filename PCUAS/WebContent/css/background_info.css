@@ -1,0 +1,82 @@
+.information-container {
+	width: 1000px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.information-container .lefthalf {
+	display: inline-block;
+	width: 49%;
+	margin-bottom: 60px;
+}
+
+.information-container .lefthalf input {
+	width: 80%;
+}
+
+.information-container .righthalf {
+	display: inline-block;
+	width: 49%;
+	margin-bottom: 60px;
+}
+
+.information-container .righthalf input {
+	width: 80%;
+}
+
+.information-container input {
+	width: 40%;
+	height: 30px;
+	font-family: 'Neou Bold';
+	letter-spacing: 3px;
+	margin: 0 10px;
+	margin-top: 20px;
+	text-align: center;
+	border: none;
+	display: inline-block;
+}
+
+.information-container textarea {
+	width: 80%;
+	height: 90px;
+	resize: none;
+	font-family: 'Neou Bold';
+	letter-spacing: 3px;
+	margin: 0 10px;
+	margin-top: 20px;
+	text-align: center;
+	border: none;
+	display: inline-block;
+}
+
+.information-container select {
+	width: 40%;
+	height: 30px;
+	font-family: 'Neou Bold';
+	letter-spacing: 3px;
+	margin: 0 10px;
+	margin-top: 20px;
+	text-align: center;
+	border: none;
+	display: inline-block;
+}
+
+.information-container input.submit {
+	border: none;
+	font-family: 'varsity';
+	display: block;
+	margin: 0 auto;
+	margin-top: 20px;
+	background-color: #bad36a;
+	color: white;
+	font-size: 24px;
+}
+
+.information-container input.submit:hover {
+	background-color: white;
+	color: #bad36a;
+}
+
+.information-container input.submit:active {
+	background: #666666;
+}

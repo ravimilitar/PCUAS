@@ -1,0 +1,31 @@
+#schools-list>li {
+	display: inline-block;
+	margin: 70px;
+}
+
+#schools-list .caption {
+	padding: 30px;
+	color: white;
+	font-family: "CaviarDreams";
+	text-align: left;
+}
+
+#schools-list .caption span {
+	color: #bad36a;
+}
+
+#schools-list .caption button {
+	background-color: #bad36a;
+	border: none;
+	outline: none;
+	font-family: "CaviarDreams";
+	font-size: 18px;
+	margin-top: 15px;
+	width: 80%;
+	padding: 5px 0;
+	color: white;
+}
+
+.centered {
+	text-align: center;
+}

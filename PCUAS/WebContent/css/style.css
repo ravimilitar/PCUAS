@@ -1,0 +1,129 @@
+@font-face {
+	font-family: 'NeouThin';
+	src: url('../Assets/Fonts/Neou-Thin.ttf');
+}
+
+@font-face {
+	font-family: 'Neou Bold';
+	src: url('../Assets/Fonts/Neou-Bold.ttf');
+}
+
+@font-face {
+	font-family: 'CaviarDreams';
+	src: url('../Assets/Fonts/CaviarDreams.ttf');
+}
+
+@font-face {
+	font-family: 'CaviarDreamsBold';
+	src: url('../Assets/Fonts/CaviarDreams_Bold.ttf');
+}
+
+@font-face {
+	font-family: 'BrannbollFet';
+	src: url('../Assets/Fonts/BrannbollFet.ttf');
+}
+
+@font-face {
+	font-family: 'Varsity';
+	src: url('../Assets/Fonts/varsity_regular.ttf');
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	user-select: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	overflow-x: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.content-wrapper {
+	width: 100%;
+	text-align: center;
+	background: #E5E5E5;
+}
+
+.content-wrapper.full {
+	height: 100%;
+}
+
+.content-container {
+	width: 1000px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#main-container {
+	position: relative;
+	margin-top: 91px;
+	height: calc(100% - 91px);
+	text-align: center;
+	background: #E5E5E5;
+	overflow: auto;
+}
+
+.main-title1 {
+	font-family: 'BrannbollFet';
+	font-size: 30px;
+	color: #B5C99C;
+}
+
+.main-title2 {
+	font-family: 'CaviarDreams';
+	text-transform: uppercase;
+	font-weight: 100;
+	font-size: 50px;
+	margin: 0;
+}
+
+.main-title3 {
+	font-family: 'CaviarDreams';
+	text-transform: uppercase;
+	font-weight: 100;
+	font-size: 30px;
+	color: #b0b0b0;
+	margin: 0;
+}
+
+.green-button {
+	font-family: 'Varsity';
+	background-color: #bad36a;
+	color: white;
+	font-size: 30px;
+	border: none;
+	outline: none;
+	border-radius: 10px;
+	padding: 5px 20px;
+}
+
+.green-button:hover {
+	background-color: white;
+	color: #bad36a;
+}
+
+.white-button {
+	font-family: 'Varsity';
+	color: white;
+	font-size: 30px;
+	border: none;
+	outline: none;
+	background: none;
+	text-decoration: underline;
+}
+
+.white-button:hover {
+	color: black;
+	text-transform: uppercase;
+}
